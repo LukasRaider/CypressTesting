@@ -1,0 +1,21 @@
+{
+  "name": "Cypress",
+  "version": "1.0.0",
+  "description": "Cypress Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo\" Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Lukas Huvar",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.1"
+  },
+  "dependencies": {
+    "cypress-mochawesome-reporter": "^3.7.0",
+    "cypress-multi-reporters": "^1.6.4",
+    "junit-report-merger": "^6.0.3",
+    "mocha-junit-reporter": "^2.2.1"
+  }
+}
